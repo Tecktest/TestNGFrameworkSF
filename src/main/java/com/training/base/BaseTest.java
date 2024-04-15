@@ -16,6 +16,7 @@ public class BaseTest {
 	public WebDriver geDriver() {
 		if (driver == null) {
 			driver = new ChromeDriver();
+			driver.manage().window().maximize();
 		}
 		return driver;
 	}	

@@ -31,7 +31,6 @@ public class LoginTest extends BaseTest {
 		driver.get(url);
 		loginpage = new LoginPage(driver);
 		DOMConfigurator.configure("log4j.xml");
-
 	}
 
 	@Test
@@ -90,9 +89,9 @@ public class LoginTest extends BaseTest {
 		Log.info("Unsuccesful logged in");
 	}	
 
-	//@AfterTest
-	//public void tearDown() {
-		//screen.takeScreenShot(driver);
-		//close();
-	//}
+	@AfterTest
+		public void tearDown() {
+		screen.takeScreenShot(driver);
+		close();
+	}
 }

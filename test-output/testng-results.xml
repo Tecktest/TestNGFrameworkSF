@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-08T08:17:20 PDT" name="Default suite" finished-at="2024-04-08T08:17:41 PDT" duration-ms="20570">
+  <suite started-at="2024-04-14T22:47:24 PDT" name="Default suite" finished-at="2024-04-14T22:47:35 PDT" duration-ms="11752">
     <groups>
     </groups>
-    <test started-at="2024-04-08T08:17:20 PDT" name="Default test" finished-at="2024-04-08T08:17:41 PDT" duration-ms="20570">
-      <class name="com.training.testcases.LoginTest">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.training.testcases.LoginTest@6d4d66d2]" started-at="2024-04-08T08:17:20 PDT" name="BeforeMethod" finished-at="2024-04-08T08:17:24 PDT" duration-ms="3539" status="PASS">
+    <test started-at="2024-04-14T22:47:24 PDT" name="Default test" finished-at="2024-04-14T22:47:35 PDT" duration-ms="11752">
+      <class name="com.training.testcases.LeadTest">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.training.testcases.LeadTest@7526515b]" started-at="2024-04-14T22:47:24 PDT" name="BeforeMethod" finished-at="2024-04-14T22:47:31 PDT" duration-ms="7543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="invalidLogin_5()[pri:0, instance:com.training.testcases.LoginTest@6d4d66d2]" started-at="2024-04-08T08:17:24 PDT" name="invalidLogin_5" finished-at="2024-04-08T08:17:41 PDT" duration-ms="16987" status="PASS">
+        <test-method signature="LeadsViewDrop_22()[pri:0, instance:com.training.testcases.LeadTest@7526515b]" started-at="2024-04-14T22:47:31 PDT" name="LeadsViewDrop_22" finished-at="2024-04-14T22:47:35 PDT" duration-ms="4165" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidLogin_5 -->
-      </class> <!-- com.training.testcases.LoginTest -->
+        </test-method> <!-- LeadsViewDrop_22 -->
+      </class> <!-- com.training.testcases.LeadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
